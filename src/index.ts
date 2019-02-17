@@ -1,3 +1,3 @@
-export function IsNullOrEmpty(str: string): boolean {
+export const IsNullOrEmpty = (str: string): boolean => {
     return str == null || str.trim().length === 0;
 }
