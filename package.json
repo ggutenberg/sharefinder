@@ -1,0 +1,19 @@
+{
+  "name": "sharefinder",
+  "version": "1.0.0",
+  "description": "Finds your Dropbox shared files and folders",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\""
+  },
+  "author": "Garth Gutenberg <garth.gutenberg@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "11.9.4",
+    "tslint": "5.12.1",
+    "typescript": "3.3.3"
+  }
+}
